@@ -559,6 +559,7 @@ textarea::-moz-placeholder {
 }
 
 .bloglist02 li {
+  font-size: 19px;
   list-style-type: disc;
 }
 
@@ -835,8 +836,23 @@ textarea::-moz-placeholder {
     font-size: 14px;
   }
 
+  .bloglist02 li {
+    font-size: 14px;
+  }
+
   .blogpicset2 span {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .post__block p {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .blogpicset04__img {
+    margin-top: 20px;
   }
 }
 
